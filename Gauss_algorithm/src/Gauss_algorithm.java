@@ -1,9 +1,11 @@
-package Gauss_algorithm;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Gauss_algorithm {
+    public static void main(String[] args) {
+
+    }
+
     public static void printer(float[][] array) {
         int rows = array.length;
         int cols = array[0].length;
@@ -45,7 +47,7 @@ public class Gauss_algorithm {
         return rows;
     }
 
-    public static void main(String[] args) {
+    public static void gauss() {
         Scanner myScanner = new Scanner(System.in);
 
         // initialize size
@@ -158,6 +160,6 @@ public class Gauss_algorithm {
         System.out.println("all zero: " + Arrays.toString(allZeroLines));
 
         // start solving
-        
+
     }
 }
