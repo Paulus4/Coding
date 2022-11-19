@@ -1,15 +1,13 @@
-import "./App.css";
+import Face from "./Face";
 
-import Face from "./smiley/Face";
-
-import {range} from 'd3';
+import { range } from "d3";
 
 const faceWidth = 200;
 const faceHeight = 200;
 
 const array = range(45);
 
-const App = () =>
+const SmileyApp = () =>
   array.map(() => (
     <Face
       width={faceWidth}
@@ -25,4 +23,4 @@ const App = () =>
     />
   ));
 
-export default App;
+export default SmileyApp;
